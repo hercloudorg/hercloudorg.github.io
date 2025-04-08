@@ -1,2 +1,2 @@
 # hercloudorg
-Welcom to hercloud.org
+Welcome to hercloud.org
