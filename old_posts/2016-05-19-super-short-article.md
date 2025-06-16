@@ -1,7 +1,18 @@
 ---
 layout: post
-title: "Some articles are just so short that we have to make the footer stick"
-categories: misc
+title: "Home"
+categories: info
 ---
+# About Her Cloud
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+HER Cloud is a student-led club at Valencia College dedicated to empowering women and underrepresented minorities in technology and cloud computing. We strive to create a supportive, inclusive environment where members can connect, collaborate, and grow both personally and professionally.
+
+Our activities include:
+- Hands-on cloud labs  
+- Resume and interview prep  
+- Guest speakers from the tech industry  
+- Certification study sessions  
+
+Whether you're just starting out or already on your cloud journey, HER Cloud is a space where you can learn, lead, and lift others—together.
+
+Members are welcome to drop in anytime to study, share ideas, or get help outside of official events.

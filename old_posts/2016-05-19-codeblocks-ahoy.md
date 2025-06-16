@@ -26,7 +26,7 @@ This line has not been changed
   padding: 0
 
   &:hover
-    color: #ab45ef;
+    color:rgb(241, 113, 235);
 ```
 ```ruby
 21 + 54 = 0
