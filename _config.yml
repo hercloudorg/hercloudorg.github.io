@@ -62,6 +62,7 @@ description: >
 #     the order they should be rendered.
   nav_pages:
     - about.md
+    - join-us.md
     - contact.md
 #
 #   Set to `true` to show excerpts on the homepage.
