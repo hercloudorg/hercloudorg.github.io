@@ -1,5 +1,37 @@
 ---
 layout: page
+title: Join Her Cloud Club
+permalink: /join-us/
+---
+
+# Join Her Cloud Club
+
+Her Cloud is where curiosity meets community in the world of cloud computing.
+
+## Why join?
+- Build real skills through workshops and hands-on projects
+- Learn from guest speakers and mentors
+- Collaborate with a supportive community
+- Grow your network and your confidence
+
+## How to get started
+1. Fill out the signup form below to get updates
+2. Come to our next meeting or workshop
+3. Connect with us and say hi!
+
+## Meeting info
+- When: TBD (semester schedule)
+- Where: TBD (campus location)
+
+## Stay in the loop
+{% include signup-form.html %}
+
+## Questions?
+- Email us: [profcoreyleong@gmail.com](mailto:profcoreyleong@gmail.com)
+- About the club: [/about/](/about/)
+
+---
+layout: page
 title: "Join Her Cloud Club"
 permalink: /join-us/
 ---

@@ -7,3 +7,16 @@
 #
 layout: home
 ---
+
+# Welcome to Her Cloud
+
+Empowering students to learn cloud computing, build real projects, and grow together.
+
+## Ready to join?
+
+Learn a bit about us, then join in!
+
+- [About the club](/about/)
+- [Join Her Cloud Club](/join-us/)
+- [Contact the team](/contact/)
+
