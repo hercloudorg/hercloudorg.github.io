@@ -9,3 +9,7 @@ layout: home
 ---
 
 ![HerCloudLogo](/assets/Herlogo.png){:.centered}
+
+<div class="hero-illustration">
+  <img src="/images/women-in-tech.svg" alt="Women in Tech — collaboration and community" />
+</div>
