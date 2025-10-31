@@ -68,3 +68,20 @@
   margin-bottom: 1rem;
   filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
 }
+
+/* Navbar brand logo */
+.site-header .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-header .brand-logo {
+  height: 28px;
+  width: auto;
+  display: inline-block;
+}
+
+.site-header .brand-text {
+  line-height: 1;
+}
