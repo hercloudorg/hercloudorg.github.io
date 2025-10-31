@@ -1,7 +1,7 @@
 title: HerCloud.org
 author:
   name: Dr. Corey Leong
-  email: profcoreyleong@gmail.com
+  email: hercloudorg@gmail.com
 
 description: >
   Official website for Her Cloud organziation.
@@ -49,9 +49,9 @@ minima:
   #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   #     * url      Full URL of social profile.
   social_links:
-    - title: Minima Theme repository at GitHub
-      icon: github
-      url: "https://github.com/jekyll/minima"
-    - title: Jekyll at X (formerly Twitter)
-      icon: x-twitter
-      url: "https://x.com/jekyllrb"
+    - title: YouTube
+      icon: youtube
+      url: "https://www.youtube.com/@hercloudorg"
+
+  # Hide RSS/Atom feed icon from the social links list
+  hide_site_feed_link: true

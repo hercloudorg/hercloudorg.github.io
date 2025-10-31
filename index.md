@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+![HerCloudLogo](/assets/Herlogo.png){:.centered}

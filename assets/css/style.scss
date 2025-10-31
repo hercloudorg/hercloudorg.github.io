@@ -5,3 +5,66 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Luma-like theme scoped to About page */
+.about-luma {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f8fa 100%);
+}
+
+.about-luma .wrapper {
+  max-width: 980px;
+}
+
+.about-luma .post {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(16, 24, 40, 0.08);
+  padding: 2rem;
+}
+
+.about-luma .post-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-luma .post-title {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.about-luma .post-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #1f2937;
+}
+
+.about-luma .post-content h2,
+.about-luma .post-content h3 {
+  color: #0f172a;
+  margin-top: 1.75rem;
+}
+
+.about-luma .post-content a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.about-luma .post-content a:hover {
+  text-decoration: underline;
+}
+
+.about-luma img.centered {
+  width: 180px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.08));
+}
