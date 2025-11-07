@@ -1,7 +1,7 @@
 ## Her Cloud Website Plan
 
 ### High-level goals
-- **Inform**: What the club is, who it's for, how to join
+- **Inform**: What Her Cloud is, who it's for, how to join
 - **Promote**: Upcoming events, announcements, and YouTube video highlights
 - **Engage**: Clear calls-to-action (join, attend events, subscribe)
 - **Capture**: Email signup form for newsletter/mailing list
@@ -66,7 +66,7 @@
 
 ### Visual/brand and UX
 - Keep Minima, but customize:
-  - Club branding (logo/colors) in `custom-variables.scss` and `custom-styles.scss`
+  - Her Cloud branding (logo/colors) in `custom-variables.scss` and `custom-styles.scss`
   - Clear CTAs and event cards
   - Mobile-first layout, readable typography, dark mode (Minima skins exist)
 - Accessibility: High contrast, alt text, semantic headings, focus states
@@ -124,7 +124,7 @@
   - Enhanced footer with signup CTA
   - Custom CSS for form styling and conversion optimization
 - **Alternative themes considered**: Not recommended because:
-  - **Academic themes**: Too formal for student club
+  - **Academic themes**: Too formal for student organization
   - **Corporate themes**: Overkill for simple brochure site
   - **Custom themes**: Unnecessary complexity for GitHub Pages
 
@@ -141,14 +141,14 @@
 2. **Missing core pages** - No dedicated events, announcements, or videos pages
 3. **Poor homepage experience** - Lacks mission statement, next event highlights, clear CTAs
 4. **No event calendar/archive** - Can't showcase upcoming events or past activities
-5. **Basic branding** - Still using default Minima styling without club identity
-6. **No YouTube integration** - Can't showcase club videos effectively
+5. **Basic branding** - Still using default Minima styling without Her Cloud identity
+6. **No YouTube integration** - Can't showcase videos effectively
 
 ### Phase 1 Deliverables:
 
 #### 1. **Jekyll Collections Setup**
 - Create `_events/` collection for structured event data
-- Create `_announcements/` collection for club updates
+- Create `_announcements/` collection for updates
 - Create `_videos/` collection for YouTube content
 - Configure `_config.yml` with collection settings
 
@@ -181,7 +181,7 @@
 - Create helper includes for event cards, announcement teasers
 
 #### 5. **Basic Styling & Branding**
-- Update `_sass/minima/custom-variables.scss` with club colors
+- Update `_sass/minima/custom-variables.scss` with Her Cloud colors
 - Enhance `_sass/minima/custom-styles.scss` for:
   - Event card styling
   - CTA button styling
@@ -209,6 +209,6 @@
 - ✅ Videos page embeds YouTube content properly
 - ✅ Navigation includes all new pages
 - ✅ Mobile-responsive design maintained
-- ✅ Club branding applied (colors, logo, styling)
+- ✅ Her Cloud branding applied (colors, logo, styling)
 
 
