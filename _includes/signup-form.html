@@ -1,61 +1,53 @@
-<!-- Email Signup Form for Her Cloud Club -->
 <div class="signup-form-container">
-  <h3>Join Our Community</h3>
-  <p>Fill out the form below to join Her Cloud Club and stay updated on our events and activities.</p>
-  
-  <!-- Placeholder for Google Form - Replace with actual Google Form embed -->
-  <div class="form-placeholder" style="display: none;">
-    <p><strong>Google Form Integration Needed</strong></p>
-    <p>To complete this implementation, you'll need to:</p>
-    <ol>
-      <li>Create a Google Form for email signup</li>
-      <li>Replace the iframe src below with your actual Google Form URL</li>
-      <li>Configure the form to collect: email, name, graduation year, interests</li>
-    </ol>
+  <div class="signup-form-card">
+    <p class="signup-form-description">Her Cloud is where curiosity meets community in the world of cloud computing. Join us to build real skills, learn from mentors, and grow your network in a supportive environment.</p>
     
-    <!-- This iframe will be replaced with actual Google Form -->
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYOUR_FORM_ID_HERE/viewform?embedded=true" 
-            width="100%" 
-            height="600" 
-            frameborder="0" 
-            marginheight="0" 
-            marginwidth="0">
-      Loading…
-    </iframe>
-  </div>
-  
-  <!-- Alternative: Simple contact form (if Google Forms not available) -->
-  <div class="alternative-form">
-    <form action="mailto:profcoreyleong@gmail.com" method="post" enctype="text/plain">
+    <form class="signup-form" action="mailto:hercloudorg@gmail.com" method="post" enctype="text/plain">
       <div class="form-group">
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
+        <label for="full-name">Full Name <span class="required">*</span></label>
+        <input type="text" id="full-name" name="full-name" required>
       </div>
       
       <div class="form-group">
-        <label for="email">Email Address:</label>
+        <label for="email">Email Address <span class="required">*</span></label>
         <input type="email" id="email" name="email" required>
       </div>
       
       <div class="form-group">
-        <label for="graduation">Graduation Year:</label>
-        <select id="graduation" name="graduation">
-          <option value="">Select Year</option>
-          <option value="2024">2024</option>
-          <option value="2025">2025</option>
-          <option value="2026">2026</option>
-          <option value="2027">2027</option>
-          <option value="2028">2028</option>
-          <option value="other">Other</option>
+        <label for="status">Status <span class="required">*</span></label>
+        <select id="status" name="status" required>
+          <option value="">Select status</option>
+          <option value="student">Student</option>
+          <option value="alumni">Alumni</option>
+          <option value="observer">Observer</option>
         </select>
       </div>
       
       <div class="form-group">
-        <label for="interests">Areas of Interest:</label>
-        <textarea id="interests" name="interests" placeholder="e.g., AWS, Azure, Google Cloud, DevOps, etc."></textarea>
+        <label for="graduation-year">Graduation Year <span class="required">*</span></label>
+        <input type="text" id="graduation-year" name="graduation-year" placeholder="Enter N/A for observers" required>
       </div>
       
-      <button type="submit" class="cta-button">Join Her Cloud Club</button>
+      <div class="form-group">
+        <label for="areas-of-interest">Areas of Interest <span class="required">*</span></label>
+        <textarea id="areas-of-interest" name="areas-of-interest" rows="4" placeholder="e.g., AWS, Azure, Google Cloud, DevOps, etc." required></textarea>
+      </div>
+      
+      <div class="form-group">
+        <label for="how-found-us">How did you find out about us? <span class="required">*</span></label>
+        <select id="how-found-us" name="how-found-us" required>
+          <option value="">Select an option</option>
+          <option value="friend">Friend or colleague</option>
+          <option value="social-media">Social media</option>
+          <option value="event">University event</option>
+          <option value="website">Website search</option>
+          <option value="email">Email/newsletter</option>
+          <option value="flyer">Flyer or poster</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <button type="submit" class="submit-button">Join Her Cloud Club</button>
     </form>
   </div>
 </div>

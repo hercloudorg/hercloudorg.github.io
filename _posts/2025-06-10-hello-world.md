@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 ---
 
 Hello world! This is our first post for the HerCloud Organization!

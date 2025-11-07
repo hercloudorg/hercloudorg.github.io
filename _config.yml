@@ -3,9 +3,9 @@
 #
 title: HerCloudorg
 #
-author:
-  name: Dr. Corey Leong
-  email: profcoreyleong@gmail.com
+# author:
+#   name: Dr. Corey Leong
+#   email: hercloudorg@gmail.com
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
