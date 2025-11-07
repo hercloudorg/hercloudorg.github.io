@@ -25,9 +25,18 @@ body {
   border-bottom: 2px solid #FADADD;
 }
 
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .site-header .site-title,
 .site-header .site-title:visited {
   color: #005C5A;
+  display: flex;
+  align-items: center;
+  line-height: 1;
 }
 
 .site-header .site-title:hover {
@@ -35,9 +44,17 @@ body {
 }
 
 /* Navigation */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav .page-link,
 .site-nav .page-link:visited {
   color: #2A2A2A;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
 }
 
 .site-nav .page-link:hover {

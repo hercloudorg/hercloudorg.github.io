@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Join Her Cloud Club
+title: Join Her Cloud
 permalink: /join-us/
 ---
 
