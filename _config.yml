@@ -65,6 +65,7 @@ minima:
     - join-us.md
     - contact.md
     - photo-gallery.md
+    - partners.md
 #
 #   Set to `true` to show excerpts on the homepage.
 #   show_excerpts: false
