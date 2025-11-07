@@ -12,7 +12,7 @@ layout: home
 
 <div class="home-intro">
   <h1>Welcome to Her Cloud</h1>
-  <p>Her Cloud is a student-led organization supporting women and nonbinary students in information technology and related fields. We create a supportive, inclusive environment where members grow technical skills, gain career insights, and build meaningful connections.</p>
+  <p>Her Cloud is a student-led organization supporting women students in information technology and related fields. We create a supportive, inclusive environment where members grow technical skills, gain career insights, and build meaningful connections.</p>
   <p>Whether you're exploring your first line of code or preparing for internships and full-time roles, you belong here. Join us to learn, collaborate, and thrive in tech.</p>
 </div>
 
