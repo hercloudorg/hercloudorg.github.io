@@ -1,2 +1,157 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Join Us Page Styling
+.signup-form-container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  
+  iframe {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
+
+// CTA Button Styling
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  
+  &:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+// Join Us Page Specific Styling
+.join-us-page {
+  .hero-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .step-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .meeting-info {
+    background-color: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    
+    a {
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      
+      &:hover {
+        background-color: #0056b3;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Form Styling
+.form-group {
+  margin-bottom: 1rem;
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    
+    &:focus {
+      outline: none;
+      border-color: #007bff;
+      box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+    }
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+}
+
+.form-placeholder {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px dashed #007bff;
+  text-align: center;
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  ol {
+    text-align: left;
+    margin: 1rem 0;
+  }
+}
+
+// Mobile Responsive Design
+@media (max-width: 768px) {
+  .signup-form-container {
+    margin: 1rem 0;
+    padding: 1rem;
+    
+    iframe {
+      height: 500px;
+    }
+  }
+  
+  .join-us-page {
+    .social-links {
+      flex-direction: column;
+      
+      a {
+        text-align: center;
+      }
+    }
+  }
+  
+  .form-group {
+    input, select, textarea {
+      font-size: 16px; // Prevent zoom on iOS
+    }
+  }
+}
