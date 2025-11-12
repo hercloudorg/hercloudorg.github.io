@@ -14,7 +14,7 @@ Upcoming meeting this Friday, November 14th from 12 - 1:30 pm through Google Mee
 ## Upcoming Events
 
 
-![Virtual Learning Panel Event Flyer](/images/virtual-learning-panel-flyer.png)
+<img src="{{ '/images/virtual-learning-panel-flyer.png' | relative_url }}" alt="Virtual Learning Panel Event Flyer" style="max-width: 100%; height: auto; display: block; margin: 1em auto;">
 
 
 <h2 style="color: #005C5A; font-size: 1.8em; margin-top: 2em;">Stay Updated with Her Cloud!</h2>
