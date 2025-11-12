@@ -9,9 +9,16 @@
   border-radius: 8px;
   border: 1px solid #e9ecef;
   
-  iframe {
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  .google-form-wrapper {
+    width: 100%;
+    overflow: hidden;
+    
+    iframe {
+      width: 100%;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: block;
+    }
   }
 }
 
@@ -134,8 +141,8 @@
     margin: 1rem 0;
     padding: 1rem;
     
-    iframe {
-      height: 500px;
+    .google-form-wrapper iframe {
+      height: 1200px; // Adjusted for better mobile viewing of Google Forms
     }
   }
   
