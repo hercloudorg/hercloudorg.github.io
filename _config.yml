@@ -63,6 +63,7 @@ minima:
   nav_pages:
     - about.md
     - join-us.md
+    - events.md
     - contact.md
     - photo-gallery.md
     - partners.md
