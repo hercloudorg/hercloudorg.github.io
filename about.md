@@ -38,8 +38,8 @@ If you’re interested in joining or collaborating, reach out through our contac
 
 ## Meet our officers 
 
-President — Dani
+President — Jessica Cherry
 
-Vice President — Kim
+Vice President — To be elected
 
-Treasurer — Caroline
+Treasurer — To be elected
